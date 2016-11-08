@@ -13,6 +13,7 @@
 		40D71D2B1DD1A803007927FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D71D291DD1A803007927FB /* Main.storyboard */; };
 		40D71D2D1DD1A803007927FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D71D2C1DD1A803007927FB /* Assets.xcassets */; };
 		40D71D301DD1A803007927FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D71D2E1DD1A803007927FB /* LaunchScreen.storyboard */; };
+		40D71D391DD1A84A007927FB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D71D381DD1A84A007927FB /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		40D71D2C1DD1A803007927FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40D71D2F1DD1A803007927FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40D71D311DD1A803007927FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D71D371DD1A84A007927FB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		40D71D381DD1A84A007927FB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				40D71D2E1DD1A803007927FB /* LaunchScreen.storyboard */,
 				40D71D311DD1A803007927FB /* Info.plist */,
 				40D71D201DD1A803007927FB /* Supporting Files */,
+				40D71D371DD1A84A007927FB /* Person.h */,
+				40D71D381DD1A84A007927FB /* Person.m */,
 			);
 			path = alibaba;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				40D71D281DD1A803007927FB /* ViewController.m in Sources */,
 				40D71D251DD1A803007927FB /* AppDelegate.m in Sources */,
+				40D71D391DD1A84A007927FB /* Person.m in Sources */,
 				40D71D221DD1A803007927FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +313,7 @@
 				40D71D361DD1A803007927FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

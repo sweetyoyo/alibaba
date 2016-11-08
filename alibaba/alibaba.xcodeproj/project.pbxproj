@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4036A88F1DD1A92E001654A9 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4036A88E1DD1A92E001654A9 /* Dog.m */; };
 		40D71D221DD1A803007927FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D71D211DD1A803007927FB /* main.m */; };
 		40D71D251DD1A803007927FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D71D241DD1A803007927FB /* AppDelegate.m */; };
 		40D71D281DD1A803007927FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D71D271DD1A803007927FB /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4036A88D1DD1A92E001654A9 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		4036A88E1DD1A92E001654A9 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		40D71D1D1DD1A803007927FB /* alibaba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alibaba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D71D211DD1A803007927FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40D71D231DD1A803007927FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +48,8 @@
 		40D71D141DD1A803007927FB = {
 			isa = PBXGroup;
 			children = (
+				4036A88D1DD1A92E001654A9 /* Dog.h */,
+				4036A88E1DD1A92E001654A9 /* Dog.m */,
 				40D71D1F1DD1A803007927FB /* alibaba */,
 				40D71D1E1DD1A803007927FB /* Products */,
 			);
@@ -157,6 +162,7 @@
 			files = (
 				40D71D281DD1A803007927FB /* ViewController.m in Sources */,
 				40D71D251DD1A803007927FB /* AppDelegate.m in Sources */,
+				4036A88F1DD1A92E001654A9 /* Dog.m in Sources */,
 				40D71D391DD1A84A007927FB /* Person.m in Sources */,
 				40D71D221DD1A803007927FB /* main.m in Sources */,
 			);
